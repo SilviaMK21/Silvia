@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Link</title>
+</head>
+
+<body>
+	<a href="latihan1.1.html">Klik di sini</a>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Link 2</title>
+</head>
+
+<body>
+	Untuk kembali ke halaman pertama
+	<a href="link1.html">Klik di sini</a>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Atribut Link</title>
+</head>
+
+<body>
+	<a href="latihan1.1.html" target="_blank" title="Klik disini">Klik disini</a>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Link Internal</title>
+</head>
+
+<body>
+	Menu
+	<ul>
+		<li><a href="#pendahuluan">Pendahuluan</a></li>
+		<li><a href="#pembahasan">Pembahasan</a></li>
+		<li><a href="#kesimpulan">Kesimpulan</a></li>
+	</ul>
+
+<h3 id="pendahuluan">Pendahuluan</h3>
+<p>
+Brigata Curva Sud (BCS) adalah satu di antara dua kelompok suporter PSS Sleman. Lahir pada 2010, usia BCS jauh lebih muda dibanding pendahulunya, Slemania. 
+
+<h3 id="pembahasan">Pembahasan</h3>
+<p>
+Pertengahan Februari 2017 lalu, Copa90, sebuah situs digital pecinta bola dunia, menobatkan BCS sebagai suporter ultras terbaik di Asia. Tayangan videonya, berjudul “Top 5 Incredible Asian Ultras” yang diunggah di kanal Youtube pada 17 Februari 2017, kini telah ditonton ratusan ribu orang.
+<h3 id="kesimpulan">Kesimpulan</h3>
+<p>
+BCS menempati urutan pertama. Pendukung Super Elang Jawa, julukan bagi PSS Sleman, itu berhasil menyisihkan empat suporter asal Jepang (Urawa Boys), Korea Selatan (Frente Tricolor), Malaysia (Boys of Straits), dan India (Bangal Brigade). 
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Link Email</title>
+</head>
+
+<body>
+	<a href="mailto:silviamega.2019@student.uny.ac.id" >mengirimkan email</a>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Link Gambar</title>
+</head>
+
+<body>
+	<a href="https://campusboys1976.com/" title="Search with Google">
+	<img src="campusboy.png" border="0" />
+	</a>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Demo Tabel</title>
+</head>
+
+<body>
+	<table border=1>
+	<caption>Teman Aku</caption>
+		<!-- Header -->
+		<tr>
+			<th>No</th>
+			<th>Nama</th>
+			<th>Alamat</th>
+		</tr>
+		
+		<!-- Baris data pertama -->
+		<tr>
+			<td>1</td>
+			<td>Mufida</td>
+			<td>Gorontalo</td>
+		</tr>
+		
+		<tr>
+			<td>2</td>
+			<td>Aldi</td>
+			<td>Palu</td>
+		</tr>
+		
+		<tr>
+			<td>3</td>
+			<td>Ulin</td>
+			<td>Pajangan</td>
+		</tr>
+		
+	
+	</table>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Demo Spasi Tabel</title>
+</head>
+
+<body>
+	<table border=1 align="center" cellspacing=0 cellpadding=10>
+		<!-- Header -->
+		<tr>
+			<th>No</th>
+			<th>Nama</th>
+			<th>Alamat</th>
+		</tr>
+		
+		<!-- Baris data pertama -->
+		<tr>
+			<td>1</td>
+			<td>Mufida</td>
+			<td>Gorontalo</td>
+		</tr>
+		
+		<tr>
+			<td>2</td>
+			<td>Aldi</td>
+			<td>Palu</td>
+		</tr>
+		
+		<tr>
+			<td>3</td>
+			<td>Ulin</td>
+			<td>Pajangan</td>
+		</tr>
+	</table>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Ukuran Tabel</title>
+</head>
+
+<body>
+	<table border=1 align="center" cellspacing=0 cellpadding=5>
+		<tr>
+		<!-- Mengatur lebar kolom -->
+			<th width="25">No.</th>
+			<th width="100">Nama</th>
+			<th width="100">Alamat</th>
+		</tr>
+		
+		<!-- Baris data pertama -->
+		<tr>
+			<td>1</td>
+			<td>Mufida</td>
+			<td>Gorontalo</td>
+		</tr>
+		
+		<tr>
+			<td>2</td>
+			<td>Aldi</td>
+			<td>Palu</td>
+		</tr>
+		
+		<tr>
+			<td>3</td>
+			<td>Ulin</td>
+			<td>Pajangan</td>
+		</tr>
+		
+	</table>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Span/Merge Sel</title>
+</head>
+
+<body>
+	<table border=1 align="center" cellspacing=0 cellpadding=5>
+		<tr>
+			<th width="50">No</th>
+			<!-- Gabung kolom nama dan alamat -->
+			<th width="350" colspan=2>Nama dan Alamat</th>
+		</tr>
+		
+		<!-- Baris data pertama -->
+		<tr>
+			<!-- Gabung baris 1 dan 2 -->
+			<td rowspan=2>1 dan 2</td>
+			<td>Mufida</td>
+			<td>Gorontalo</td>
+		</tr>
+		
+		<!-- Baris data kedua -->
+		<tr>
+			<td>Aldi</td>
+			<td>Palu</td>
+		</tr>
+		
+	</table>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Template Desain Form</title>
+</head>
+
+<body>
+
+	<h3>Formulir Pendaftaran</h3>
+	<form action="" method="post">
+	<table border=0>
+		<tr>
+			<td>NIK</td>
+			<td><input type="text" /></td>
+		</tr>
+		
+		<tr>
+			<td>Nama</td>
+			<td><input type="text" /></td>
+		</tr>
+
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td>
+				<input type="radio" />Pria
+				<input type="radio" />Wanita
+			</td>	
+		</tr>
+
+		<tr>
+			<td>Pekerjaan</td>
+			<td>
+			<select name="job">
+				<option>Guru</option>
+				<option>Wiraswasta</option>
+				<option>Dokter</option>
+				<option>Buruh</option>
+				<option>Lainnya</option>
+			</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<input type="submit" value="ok" />
+				<input type="submit" value="cancel" />
+			</td>
+		</tr>
+
+	</table>
+	
+	</form>
+	
+</body>
+	
+</html>
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<title> TABEL KOREKSI </title>
+</head>
+
+<body>
+<table border="3" align="center" cellspacing=5 frame="hsides" rules="groups">
+<caption><b>PERBANDINGAN FITUR</b></caption>
+
+
+<colgroup align="center">
+<colgroup align="center">
+<colgroup align="center">
+<colgroup align="center">
+<colgroup align="center">
+
+<tr>
+<th width="37">No.</th>
+<th width="200">Fitur</th>
+<th width="100">Enterprise</th>
+<th width="50" colspan=2> <pre>Pro   Free</pre></th>
+</tr>
+
+<tbody>
+<tr>
+			<td align="left">
+			1 <br> 2 <br> 3 <br> 4 <br> 5 <br>
+			</td>
+			<td align="left">
+			Garansi Seumur Hidup <br>
+			Mubuser <br>
+			Update Otomatis <br>
+			Cek Laporan <br>
+			Notifikaasi Error <br>
+			</td>
+			<td align="center">
+			X <br>
+			X <br>
+			X <br>
+			X <br>
+			X <br>
+			</td>
+			<td align="left">
+			- &nbsp &nbsp &nbsp - <br>
+			- &nbsp &nbsp &nbsp - <br>
+			X &nbsp &nbsp &nbsp - <br>
+			X &nbsp &nbsp &nbsp - <br>
+			X &nbsp &nbsp &nbsp X <br>	
+			</td>
+		</tr>
+		
+		<tr> 
+			<td align="left">
+			6 <br>
+			7 <br>
+			</td>
+			<td align="left">
+			Ubah Nama <br>
+			Try Ikon <br>
+			</td>
+			<td align="center">
+			X <br>
+			X <br>
+			</td>
+			<td align="left">
+			X &nbsp &nbsp &nbsp X <br>
+			X &nbsp &nbsp &nbsp X <br>
+			</td>
+			</td>
+<tbody>
+
+</table>
+
+
+</body>
+</html>
