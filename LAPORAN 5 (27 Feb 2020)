@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Inline Style</title>
+</head>
+
+<body>
+	<!-- menerapkan embedded style pada paragraf -->
+	<p style="color:red; font-style:italic">
+	Sepakbola bagi sebagian orang sudah dianggap sebagai agama, sesuatu yang begitu suci dan vital pada masing-masing tempatnya.
+	
+	<!-- menerapkan embedded style pada paragraf -->
+	<p style="color:blue;  font-style:italic">
+	Namun kami ingin memandang sepakbola sebagai suatu hal dalam pengertian yang lebih sederhana, sebagai kebahagiaan.
+	
+	<p>
+	<p style="color:green; font-weight:bold">
+	Percaya atau tidak, sepakbola bagi kami tak akan pernah selesai hanya dengan 90 menit, ia abadi, ada dalam setiap perjalanan hidup kami, begitulah kami memaknai sepakbola sebagai cinta dan kebahagiaan.
+</body>
+
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Embedded Style</title>
+	
+	<style type="text/css">
+	<!--
+	p {
+		color: green;
+		font-weight : bold;
+	}
+	-->
+	</style>
+</head>
+
+<body>
+	<p>
+	Menjadi seorang suporter sepakbola memang tidak pernah mudah.
+	
+	<p>
+	Mendukung klub kebanggaan dimana pun ia berlaga.
+	
+	<p>
+	Waktu, materi, studi, pekerjaan, dan masih banyak hal lain yang harus dikorbankan saat kita memutuskan menjadi seorang suporter. 
+</body>
+
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Embedded Style</title>
+	
+	<style type="text/css">
+	<!--
+	.style1 {
+		color: red;
+		font-style: italic;
+	}
+	
+	#style2 {
+		color: blue;
+		font-weight: bold;
+	}
+	
+	b, p, a {
+	color: green;
+	font-style: italic;
+	}
+	-->
+	</style>
+	
+</head>
+
+<body>
+
+	<p class="style1">
+	Manifesto ‘Ora Muntir’ tetap kami pegang erat dalam benak kami.
+	
+	<p id="style2">
+	Kami evaluasi diri apa yang perlu dibenahi dan karya apalagi yang perlu diciptakan untuk mendukung klub kebanggaan kami. 
+	
+	<p class="style1">
+	Diawali dengan Sinau Bareng yang diselenggarakan kawan-kawan BCS bersama punggawa PSS di lapangan Pemda Sleman, kami memupuk asa baru.
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Linked Style</title>
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	
+</head>
+
+<body>
+	<p class="style1">
+	Perjuangan memang tak pernah mengkhianati hasil.
+	
+	<p class="style2">
+	Kini mimpi kita bersama telah menjadi nyata.
+	
+	<p id="style3">
+	Euforia promosi liga 1 dan penobatan juara di Stadion Pakansari 4 Desember 2018
+	takkan pernah kami lupakan. 
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Style Font</title>
+	
+	<style type="text/css">
+	<!--
+	.style_font {
+		font-family: Trebuchet MS;
+		font-size: 18px;
+		font-style: italic;
+		font-weight: bold;
+		text-decoration: underline;
+		color: red;
+	}
+	
+	.style2_font {
+		font-family: Comic Sans MS;
+		font-size: 25px;
+		font-style: italic;
+		font-weight: bold;
+		text-decoration: underline;
+		color: blue;
+	}
+	-->
+	</style>
+	
+</head>
+
+<body>
+	<p>
+	Terimakasih PSS Sleman.
+	
+	<p class="style_font">
+	Tetaplah konsisten, semakin profesional dan terus torehkan sejarah.
+	
+	<p class="style2_font">
+	Kami akan selalu ada untuk mengawalmu. PSS Sleman, Ale!
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Style Sheet</title>
+	
+	<style type="text/css">
+	<!--
+	.border1 {
+		border: 1px solid pink;
+	}
+	
+	.border2 {
+		border: 4px dashed purple;
+	}
+	
+	.border3 {
+		border: 8px dotted brown;
+	}
+	-->
+	</style>
+	
+</head>
+
+<body>
+	<p class="border1">
+	Sebagai suporter berbuat hal positif kepada tim adalah sebuah keharusan. 
+	Karena pada dasarnya suporter beda dengan penonton umum. 
+	Tingkat candu terhadap tim yang dibela pula berbeda
+	
+	<p class="border2">
+	PSS Sleman, ia memiliki dua elemen suporter. 
+	Kreativitas disetiap laga berupa nyanyian lantang misalnya. 
+	Semakin larut, dan terus membesar bahkan tak terbendung.
+	Namun ketika semakin besar dan tak terbendung justru kreativitas tersebut pelan-pelan menurun, 
+	banyak pula yang menghujat atau dan sebagainya.
+	
+	<p class="border3">
+	Kembali pada pola pikir kami seperti dulu, yang penuh dengan mindset, tujuan awal masuk ke dalam tribun.
+	Mengurangi hingga menghilangkan tindakan arogan yang merugikan. 
+	Kita berkiblat budaya barat namun jangan lupa pada budaya kita.
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Style Sheet</title>
+	
+	<style type="text/css">
+	<!--
+	.border1 {
+		border: 1px solid red;
+		padding: 10px;
+	}
+	
+	.border2 {
+		border: 1px solid red;
+		padding: 20px 10px 5px 40px;
+	}
+	
+	-->
+	</style>
+	
+</head>
+
+<body>
+	<p class="border1">
+	Seperti pepatah “di mana bumi dipijak, di situ langit dijunjung”  bermakna, 
+	sebaiknya kita selalu mengikuti kebiasaan dan adat istiadat di tempat kita berada.
+	
+	<p class="border2">
+	Kalah, menang maupun hanya berbagi angka dalam pertandingan sepakbola adalah 
+	rumus paten yang tidak bisa dirubah. Bila tim kita menang tetaplah membumi dan bersyukur. 
+	Jika kalah bila tim mau tidak mau harus dapat menerimanya.
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Style List</title>
+	
+	<style type="text/css">
+	<!--
+	#leftmenu ul {
+		width: 250px;
+		list-style-type:none;
+		padding:0px; margin:0;
+	}
+	
+	#leftmenu a:link, #leftmenu a:visited, #leftmenu a:active {
+		padding-left: 15px;
+		text-decoration: none;
+	}
+	
+	#leftmenu a {
+		padding: 5px 0px 5px 15px; display: block;
+		background: #FF00FF no-repeat left center;
+		margin: 0px 0px 1px; color: #00FFFF;
+	}
+	
+	#leftmenu a:hover {
+		background: #ADFF2F no-repeat left center; color: #E9967A
+	}
+	
+	-->
+	</style>
+	
+</head>
+
+<body>
+	List Normal
+	<ul style="list-style-type:square;">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ul>
+
+	
+	<hr />
+	
+	Style List
+	
+	<div id="leftmenu">
+	<ul>
+		<li><a href="#">Menu Satu</a></li>
+		<li><a href="#">Menu Dua</a></li>
+		<li><a href="#">Menu Tiga</a></li>
+	</ul>
+	</div>
+	
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Ukuran Division</title>
+	
+	<style type="text/css">
+	<!--
+	.box1 {
+		width: 500px;
+		height: 100px;
+		background: #F08080 ;
+		border: 5px solid #191970;
+	}
+	
+	.box2 {
+		margin: 50px;
+		padding: 70px;
+		width: 500px;
+		height: 100px;
+		border: 10px solid #008080 ;
+	}
+	
+	-->
+	</style>
+</head>
+
+<body>
+
+	<div class="box1">
+	La Grande Storia yang berbunyi “MiaCurva Mia Casa” yang berarti Tribunku, Rumahku.
+	Sebuah kalimat yang mempunyai arti yang sangat dalam.
+	</div>
+	
+	<div class="box2">
+	Brigata Curva Sud medio tahun 2012 juga pernah benar-benar menjaga apa itu yang dinamakan “rumah”. 
+	Menjaga bukan berarti sekedar untuk membersihkan dan memenuhi tribun selatan. 
+	Namun, bagaimana kita untuk membangun kesadaran dan rasa memiliki dalam setiap individu. 
+	Tragedi bulan Februari saat itu semakin menguatkan tentang arti menjaga rumah yang memang nyata adanya.
+	</div>
+	
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Posisi Division</title>
+	
+	<style type="text/css">
+	<!--
+	.box1 {
+		float: left;
+		width: 200px;
+		height: 150px;
+		background: #D8BFD8;
+		border: 5px solid #2E8B57;
+	}
+	
+	.box2 {
+		float: right;
+		padding: 10px;
+		width: 200px;
+		height: 300px;
+		border: 10px solid #A0522D;
+	}
+	
+	-->
+	</style>
+</head>
+
+<body>
+	<div class="box1">
+	La Grande Storia yang berbunyi “MiaCurva Mia Casa” yang berarti Tribunku, Rumahku.
+	Sebuah kalimat yang mempunyai arti yang sangat dalam.
+	</div>
+	
+	<div class="box2">
+	Brigata Curva Sud medio tahun 2012 juga pernah benar-benar menjaga apa itu yang dinamakan “rumah”. 
+	Menjaga bukan berarti sekedar untuk membersihkan dan memenuhi tribun selatan. 
+	Namun, bagaimana kita untuk membangun kesadaran dan rasa memiliki dalam setiap individu. 
+	Tragedi bulan Februari saat itu semakin menguatkan tentang arti menjaga rumah yang memang nyata adanya.
+	</div>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Posisi Division</title>
+	<style type="text/css">
+	<!--
+	.box1 {
+		float: left;
+		width: 200px;
+		height: 50px;
+		background: grey;
+		border: 1px solid red;
+	}
+	
+	.box2 {
+		float: right;
+		padding: 10px;
+		width: 300px;
+		height: 100px;
+		border: 1px solid red;
+	}
+	
+	.box3 {
+		/* me-reset pengaturan float left maupun right */
+		clear: both;
+		float: left;
+		width: 200px;
+		height: 50px;
+		background: grey;
+		border: 1px solid red;
+	}
+	-->
+	</style>
+	
+</head>
+
+<body>
+	<div class="box1">
+	Copa90 menyebut BCS sebagai suporter yang amat fanatik. 
+	Sekalipun hanya berada di kasta kedua Liga Indonesia, 
+	mereka selalu memenuhi stadion pada tiap akhir pekan.
+	</div>
+	
+	<div class="box2">
+	
+	</div>
+	
+	<div class="box3">
+	Paragraf ini di dalam tag &lt;div&gt;
+	</div>
+	
+</body>
+
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Demo Rounded Border</title>
+	<style type="text/css">
+	<!--
+	.round {
+		background-color: #ddccb5;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border: 2px solid #897048;
+		padding: 10px;
+		width: 310px;
+	}
+	-->
+	</style>
+</head>
+
+<body>
+	<div class="round">
+		Gampang sekali lho bikin rounded border :-)
+	</div>
+	<br />
+	
+	<div class="round">
+	Pembuatan rounded border menggunakan CSS3 memang sangat mudah.
+	Tidak perlu file gambar sama sekali, seperti pada CSS sebelumnya
+	</div>
+	
+</body>
+
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>STUDI KASUS</title>
+<style type="text/css">
+<!--
+.lingkaran{
+width:100px;
+height:100px;
+border: 3px solid #000000;
+-moz-border-radius:50px;
+-webkit-border-radius:50px;
+background:cyan;
+text-align:center;
+font-size:15px;
+color:red;
+}
+
+.text-lingkaran{
+padding-top: 25px;
+}
+
+.border1{
+width:200px;
+text-align:center;
+font-style: italic;
+padding:10px;
+background:magenta;
+color:blue;
+font-weight: bold;
+border: 5px solid red;
+-webkit-border-top-left-radius: 20px;
+-webkit-border-bottom-right-radius: 20px;
+}
+
+.border2{
+font-weight: bold;
+font-style: italic;
+text-align:center;
+border: 3px solid teal;
+}
+
+.shadow {
+width: 200px;
+box-shadow: 5px 5px 7px #222;
+-moz-box-shadow: 10px 10px 10px #222;
+-webkit-box-shadow: 5px 5px 7px #222;
+}
+-->
+</style>
+</head>
+<body>
+<p>
+<div class="lingkaran">
+<p class="text-lingkaran">Ini adalah BUNDER
+
+</div>
+<p>
+<div class="border1">
+Border apik
+</div>
+
+<div class="shadow">
+<p class="border2">Border recommended
+</div>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="id">
+
+<head>
+<title>Desain Layout Sederhana</title>
+<link rel="stylesheet" href="mystyles.css" type="text/css" />
+</head>
+
+<body>
+
+<div id="wrapper">
+<div id="header">
+Header
+</div>
+
+<div id="inner">
+
+<div id="sidebar">
+Sidebar
+</div>
+
+<div id="content">
+Content
+</div>
+
+</div>
+
+<div id="footer">
+Footer
+</div>
+</div>
+
+</body>
+
+</html>
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<title>Desain Layout Sederhana HTML5</title>
+<link rel="stylesheet" href="mystyle2.css" type="text/css" />
+</head>
+
+<body>
+
+<header>
+header
+</header>
+
+<nav>
+nav
+</nav>
+<section>
+
+section
+</section>
+<footer>
+
+footer
+</footer>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+<title>Desain Background</title>
+
+<style>
+body {
+background-color: yellow;
+margin: 10px auto;
+width: 750px;
+}
+
+header {
+display: block;
+border: 1px solid blue;
+}
+header {
+height: 120px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+header
+</header>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+<title>Desain Background</title>
+
+<style>
+body {
+background: yellow url("wall4.jpg");
+margin: 10px auto;
+width: 750px;
+}
+
+header {
+display: block;
+border: 1px solid blue;
+}
+
+header {
+height: 120px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+header
+</header>
+
+</body>
+</html>
